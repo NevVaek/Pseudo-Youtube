@@ -1,0 +1,46 @@
+{% extends 'base-channel-edit.html' %}
+
+{% load static %}
+
+{% block title %}Create new channel{% endblock %}
+
+{% block content %}
+    <h2>Create new channel</h2>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <div id="form-menu" >
+            <button type="submit">Create</button>
+            <hr>
+        </div>
+        <div id="form-deco">
+            <img src="{% static 'resources/images/form_deco.png' %}">
+            <div id="icon-box">
+                <img src="">
+            </div>
+        </div>
+    {% csrf_token %}
+    {{ form.as_ul }}
+
+    <div id="help-texts">
+                    <div id="banner-help">
+                        <p>This image will appear across the top of your channel</p>
+                        <p>For the best results on all devices, use an image that’s at least 2048 x 1152 pixels and 6MB or less.</p>
+                    </div>
+                    <div id="icon-help">
+                        <p>Your profile picture will appear where your channel is presented on YouTube, like next to your videos and comments</p>
+                        <p>It’s recommended to use a picture that’s at least 98 x 98 pixels and 4MB or less. Use a PNG or GIF (no animations) file. Make sure your picture follows the YouTube Community Guidelines.</p>
+                    </div>
+                    <div id="name-help">
+                        <p>Choose a channel name that represents you and your content. Changes made to your name and picture are visible only on YouTube and not other Google services. You can change your name twice in 14 days. </p>
+                    </div>
+                    <div id="handle-help">
+                        <p>Choose your unique handle by adding letters and numbers. You can change your handle back within 14 days. Handles can be changed twice every 14 days.</p>
+                    </div>
+                    <div id="links-help">
+                        <p>Share external links with your viewers. They'll be visible on your channel profile and about page.</p>
+                    </div>
+                    <div id="contact-help">
+                        <p>Let people know how to contact you with business inquiries. The email address you enter may appear in the About section of your channel and be visible to viewers. </p>
+                    </div>
+                </div>
+    </form>
+{% endblock %}

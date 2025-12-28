@@ -1,0 +1,16 @@
+{% extends 'base-channel-edit.html' %}
+
+{% load static %}
+
+{% block title %}Delete video{% endblock %}
+
+{% block content %}
+    <form action="" method="POST">
+    {% csrf_token %}
+    <p>Are you sure you want to delete "{{ video.video_title }}"? <br> This action cannot be reversed</p>
+        <div id="buttons">
+            <button type="submit">Confirm</button>
+            <button id="return-button"><a href="{% url 'video-edit-list' video.channel.handle %}">Return to Dashboard</a></button>
+        </div>
+    </form>
+{% endblock %}

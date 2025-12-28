@@ -14,12 +14,12 @@
                 height: 70px;
                 width: 100%;
                 display: flex;
-                padding-top: 1px;
                 position: fixed;
                 padding-bottom: 5px;
                 z-index: 10;
-                margin-top: -22px;
+                margin-top: -52px;
                 padding-top: 20px;
+                justify-content: space-between;
             }
             #search {
                 align-self: center;
@@ -42,6 +42,11 @@
                 font-size: large;
                 display: none;
             }
+
+            #searchbar:focus {
+                outline: none;
+            }
+
             #searchbutton {
                 position: relative;
                 right: -0.082%;
@@ -55,6 +60,11 @@
                 margin-left: 0.5em;
                 min-width: 90px;
             }
+
+            #homelink {
+                margin-top: 15px;
+            }
+
             #mic {
                 background-color: #292929;
                 border-radius: 30px;
@@ -96,19 +106,48 @@
             }
             #createbutton {
                 width: 100px;
-                height: 100%;
+                height: 40px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-radius: 20px;
                 background-color:#292929;
                 border-color: #292929;
-                font-weight: bold;
-                margin-right: 3px;;
+                margin-right: 3px;
             }
             #createbutton:hover {
                 background-color: rgb(63 63 63);
             }
+
+            #sign-in-button {
+                display: flex;
+                height: 40px;
+                width: 90px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 20px;
+                border: none;
+
+            }
+
+            #sign-in-button svg {
+                max-width: 30px;
+                max-height: 30px;
+            }
+
+            #sign-up-button-link {
+                margin-left: auto;
+                margin-right: 20px;
+            }
+
+
+            #create-link {
+                display: flex;
+                font-weight: bold;
+                height: 100%;
+                padding-top: 10px;
+            }
+
             #bellbutton {
                 border-radius: 30px;
                 width: 50px;
@@ -122,7 +161,13 @@
                 background-color: rgb(63 63 63);
             }
             #avatar-thumb {
-                border-radius: 30px;
+                background-color: rgb(15 15 15);
+                border: none;
+                margin-right: 10px;
+            }
+
+            #avatar-thumb img {
+                border-radius: 100px;
                 width: 40px;
                 height: 40px;
                 overflow: hidden;
@@ -138,6 +183,9 @@
                 margin-top: 15px;
                 position: relative;
                 top: 50px;
+                margin-right: 100px;
+                outline: 1px orange solid;
+
             }
             nav .initial-nav {
                 width: 80%;
@@ -177,6 +225,7 @@
                 flex-direction: column;
                 overflow: scroll;
                 scrollbar-width: none;
+                display: none;
             }
 
 
@@ -277,7 +326,7 @@
                 top: 3px;
                 color: white;
             }
-            #footer {
+            #foot {
                 color: rgb(110 110 110);
                 margin: 15px 10px;
                 font-size: 15px;
@@ -287,12 +336,21 @@
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
+            #contentbox {
+                width: 75vw;
+                height: auto;
+                margin-left: auto;
+                padding: 10px;
+                margin-top: 45px;
+                margin-right: auto;
+            }
+
+            nav {
+                display: none;
+            }
+
             main {
-                border: 1px white solid;
-                width: 80%;
-                height: 5000px;
-                margin-left: 250px;
-                margin-top: -230px;
+                margin-top: 20px;
             }
 
             @media screen and (min-width: 390px) {
@@ -311,12 +369,18 @@
                 #bellbutton {
                     display: block;
                 }
+                #contentbox {
+                    width: 80vw;
+                }
             }
             @media screen and (min-width: 540px) {
                 #start {
                     margin-right: 15%;
                 }
             }
+
+            @media screen and (min-width: 560px) {}
+
             @media screen and (min-width: 627px) {
                 #searchbar {
                     display: block;
@@ -327,14 +391,109 @@
                     background-color: #292929;
                     border-color: #292929;
                 }
+
+                #contentbox {
+                    width: 85vw;
+                }
             }
+
+
+            @media screen and (min-width: 680px) {
+                #banner {
+                    max-width: 642px;
+                    margin-left: -10px;
+                }
+
+                #channel-icon {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                #namecheck {
+                    font-size: 16px;
+                }
+            }
+
+            @media screen and (min-width: 740px) {
+                nav {
+                    display: block;
+                }
+                #contentbox {
+                    margin-top: -270px;
+                    margin-right: 0;
+                }
+
+                header {
+                    margin-top: -18px;
+                }
+            }
+
+            @media screen and (min-width: 940px) {
+                #contentbox {
+                    width: 90vw;
+                }
+
+                #banner {
+                    max-width: 856px;
+                }
+
+                #channel-icon {
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+
+            @media screen and (min-width: 1150px) {
+                #banner {
+                    max-width: 1000px;
+                }
+            }
+
             @media screen and (min-width: 1200px) {
                 #search {
                     margin-right: 10%;
                 }
             }
+
+            @media screen and (min-width: 1230px) {
+                #banner {
+                    max-width: 1070px;
+                }
+            }
+
+            @media screen and (min-width: 1313px) {
+                #menu {
+                    display: flex;
+                }
+
+                #contentbox {
+                    width: 80vw;
+                }
+            }
             .letters {
                 color: white;
                 height: 900px;
-                border: blue solid 1px;
+            }
+
+            @media screen and (min-width: 1400px) {
+                #contentbox {
+                    width: 81vw;
+                }
+            }
+            @media screen and (min-width: 1500px) {
+                #contentbox {
+                    width: 83vw;
+                }
+            }
+
+            @media screen and (min-width: 1550px) {
+                #banner {
+                    max-width: 1284px;
+                }
+            }
+
+            @media screen and (min-width: 1700px) {
+                #contentbox {
+                    width: 80vw;
+                }
             }

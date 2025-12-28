@@ -1,0 +1,273 @@
+ html {
+            background-color: rgb(40 40 40);
+        }
+
+        * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+
+        #top-menu {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            border-bottom: 1px solid rgb(62 62 62);
+        }
+
+        #part1 {
+            display: flex;
+            margin-left: 20px;
+            width: 180px;
+            height: 80px;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .menubar {
+            max-width: 27px;
+            margin: 10px;
+
+
+        }
+
+        #searchbar {
+            justify-self: center;
+            height: 40px;
+            width: 450px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(15 15 15);
+            padding-left: 50px;
+            color: white;
+            font-size: large;
+            margin-right: 20px;
+            margin-left: 20px;
+            display: none;
+        }
+
+        #logo {
+            margin: 20px;
+        }
+
+        #part3 {
+            display: flex;
+            align-items: center;
+        }
+
+        #createbutton {
+            width: 100px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background-color:#292929;
+                font-weight: bold;
+                margin-right: 10px;
+                border: none;
+                outline: rgb(63 63 63) 1px solid;
+                padding: 5px;
+        }
+
+
+        #createbutton:hover {
+            background-color: rgb(63 63 63);
+        }
+
+        #bellbutton {
+                border-radius: 30px;
+                width: 50px;
+                padding: 10px;
+                background-color: rgb(40 40 40);
+                border: none;
+                margin-top: -3px;
+            }
+
+        #bellbutton:hover {
+                background-color: rgb(63 63 63);
+            }
+
+        #avatar-thumb {
+                border-radius: 30px;
+                width: 40px;
+                height: 40px;
+                overflow: hidden;
+                border: none;
+                margin-right: 18px;
+                margin-left: 5px;
+            }
+
+        #searchbutton {
+            position: relative;
+            right: 475px;
+            top: 2px;
+            width: 40px;
+            padding: 9px;
+            padding-left: 10px;
+            background-color: rgb(15 15 15);
+            border: none;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        #small-search {
+            background-color: rgb(40 40 40);
+            max-width: 25px;
+            border: none;
+            margin-right: 12px;
+        }
+
+        #cameraicon {
+            max-width: 25px;
+        }
+
+        #help {
+            background-color: rgb(40 40 40);
+            max-width: 25px;
+            border: none;
+        }
+
+        aside {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid rgb(62 62 62);
+        }
+
+        #account-detail {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        #side-avatar-thumb {
+            border-radius: 80px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .side-menu-icon {
+            max-width: 30px;
+            fill: white;
+        }
+
+        #side-menu ul li {
+            display: flex;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+        }
+
+        #end-setting {
+            margin-top: 230px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .side-button {
+            width: 200px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .side-button:hover {
+            background-color: rgb(31 31 31);
+        }
+
+        aside {
+                width: 70px;
+                overflow: hidden;
+            }
+
+            #side-menu {
+                margin-left: 150px;
+            }
+
+            .side-button {
+                width: 500px;
+                padding-left: 10px;
+            }
+
+            .side-menu-icon {
+                margin-right: 50px;
+            }
+
+            #side-avatar-thumb {
+                width: 40px;
+            }
+
+            #account-detail p {
+                display: none;
+            }
+
+            #end-setting {
+                margin-left: 460px;
+            }
+
+            #maincontent {
+                display: flex;
+            }
+
+            main {
+                padding: 15px;
+                padding-left: 30px;
+                width: auto;
+                flex: 1;
+            }
+
+        @media screen and (min-width: 1000px) {
+            #searchbar {
+                display: inline-block;
+            }
+
+            #small-search {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 1210px) {
+            aside {
+                width: 255px;
+                overflow: unset;
+            }
+
+            #side-menu {
+                margin-top: 20px;
+                margin-left: 0;
+            }
+
+            .side-button {
+                width: auto;
+                padding-left: 0;
+            }
+
+            .side-menu-icon {
+                margin-right: 20px;
+            }
+
+            #side-avatar-thumb {
+                width: 120px;
+            }
+
+            #account-detail p {
+                display: inline;
+            }
+
+            #end-setting {
+                margin-left: -50px;
+                margin-top: 100px;
+            }
+        }

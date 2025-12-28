@@ -1,0 +1,32 @@
+
+
+h2 {
+    color: rgb(241 241 241);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form p {
+    color: rgb(170 170 170);
+    margin-bottom: 20px;
+}
+
+#buttons button {
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #292929;
+    color: white;
+    margin-right: 50px;
+    border: none;
+    outline: 1px solid rgb(170 170 170);
+}
+
+#buttons button:hover {
+    background-color: rgb(63 63 63);
+}
+
+#buttons button a {
+    color: white;
+    text-decoration: none;
+}

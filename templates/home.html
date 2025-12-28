@@ -17,6 +17,15 @@
 <a href="{% url 'login' %}">Login</a>
 <a href="{% url 'signup' %}">Sign Up</a>
 {% endif %}
+    <br><hr>
+
+{% for instance in channel_list %}
+    <br>
+    <a style="color: rgb(241 241 241);" href="{% url 'channel-detail' instance.handle %}">{{ instance.handle }}</a>
+    <p style="color: rgb(170 170 170);">{{ instance.subscribers }} subscribers</p>
+            <br><hr>
+    {% endfor %}
+
 </div>
 {% endblock %}
 

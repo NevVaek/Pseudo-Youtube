@@ -4,111 +4,102 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa8b3d5e-47fa-42eb-97c6-3aadd09ad7e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/youtube.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/base2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/Roboto-VariableFont_wdth,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_Condensed-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/Roboto/static/Roboto_SemiCondensed-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/avatarthumb.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/channel3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/channel5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/channel6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/channel7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/channel8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/channels4_profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/resources/images/unnamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
+    <list default="true" id="fa8b3d5e-47fa-42eb-97c6-3aadd09ad7e1" name="Changes" comment="3rd Commit &#10;FINAL">
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0002_customuser_channels_created.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0002_channel_nick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0003_channel_subscribers_alter_channel_nick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0004_channel_banner_channel_icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0005_remove_channel_nick_channel_contact_channel_handle_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0006_alter_channel_icon_alter_channel_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0007_alter_channel_banner_alter_channel_icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0008_alter_channel_banner_alter_channel_icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/0009_alter_channel_banner_alter_channel_icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/radio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/base-channel-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/channel-delete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/channel-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/channel-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/channel-new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/channel-video-list-live.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/channel_edit_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/video-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/video-edit-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/video-upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/resources/images/form_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/resources/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base-channel-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_channel_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_edit_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_video_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_video_edit_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_video_list_live.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/channel_video_up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/edit_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/video-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/video_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resources/images/avatarthumb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NevVaek&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NevVaek/Pseudo-Youtube.git&quot;,
+    &quot;accountId&quot;: &quot;d0108ca7-13e9-466a-b106-18d846efb528&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -117,28 +108,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.youtube.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/NevVaek/Documents/Django/code/youtube&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.youtube.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/NevVaek/Documents/Django/youtube",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Django Server.youtube (backup before react)">
+    <configuration name="youtube (backup before react)" type="Python.DjangoServer" factoryName="Django server">
+      <module name="youtube (backup before react)" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="youtube" type="Python.DjangoServer" factoryName="Django server">
       <module name="youtube" />
       <option name="ENV_FILES" value="" />
@@ -183,11 +201,76 @@
       <workItem from="1756018733407" duration="14205000" />
       <workItem from="1756080337230" duration="13964000" />
       <workItem from="1756166141870" duration="8412000" />
-      <workItem from="1756255997979" duration="4348000" />
+      <workItem from="1756255997979" duration="22030000" />
+      <workItem from="1756344733428" duration="14664000" />
+      <workItem from="1756370667478" duration="10763000" />
+      <workItem from="1756426606774" duration="25515000" />
+      <workItem from="1756513577320" duration="3831000" />
+      <workItem from="1756604607372" duration="17185000" />
+      <workItem from="1756691548231" duration="18003000" />
+      <workItem from="1756793279444" duration="11898000" />
+      <workItem from="1756860766722" duration="26576000" />
+      <workItem from="1757028674977" duration="26030000" />
+      <workItem from="1757112166955" duration="37269000" />
+      <workItem from="1757203906771" duration="30725000" />
+      <workItem from="1757285790842" duration="37209000" />
+      <workItem from="1757373838905" duration="29373000" />
+      <workItem from="1757466394535" duration="27630000" />
+      <workItem from="1757548852772" duration="22706000" />
+      <workItem from="1757634266281" duration="34139000" />
+      <workItem from="1757721708412" duration="32758000" />
+      <workItem from="1757909480045" duration="4230000" />
+      <workItem from="1758347911303" duration="2686000" />
+      <workItem from="1758685232751" duration="51000" />
+      <workItem from="1759058987321" duration="1006000" />
+      <workItem from="1766912627249" duration="2073000" />
+      <workItem from="1766920222167" duration="3350000" />
     </task>
+    <task id="LOCAL-00001" summary="4th Commit&#10;Complete">
+      <option name="closed" value="true" />
+      <created>1766916786639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766916786639</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4th Commit &#10;FINAL">
+      <option name="closed" value="true" />
+      <created>1766922011943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766922011943</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3rd Commit &#10;FINAL">
+      <option name="closed" value="true" />
+      <created>1766922681330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766922681330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4th Commit&#10;Complete" />
+    <MESSAGE value="4th Commit &#10;FINAL" />
+    <MESSAGE value="3rd Commit &#10;FINAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd Commit &#10;FINAL" />
   </component>
 </project>

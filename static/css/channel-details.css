@@ -1,0 +1,212 @@
+            #banner {
+                max-width: 428px;
+                border-radius: 15px;
+                margin-left: 5px;
+            }
+
+            #verified {
+                max-width: 15px;
+                max-height: 15px;
+                fill: white;
+                margin-left: 8px;
+            }
+
+            #namecheck {
+                align-items: center;
+                font-size: 13px;
+            }
+
+            #namecheck h1 {
+                display: inline;       /*makes items align like inline items */
+                align-items: center;
+                gap: 0.3em;
+                white-space: nowrap;
+            }
+
+            #namecheck svg {
+                vertical-align: middle;
+                display: inline;
+                white-space: nowrap;
+            }
+
+            #channel-icon {
+                width: 72px;
+                height: 72px;
+                border-radius: 100px;
+            }
+
+            #bottom-half {
+                display: flex;
+                margin-top: 20px;
+            }
+
+            #details {
+                margin-left: 20px;
+            }
+
+            #details h1 {
+                color: white;
+            }
+
+            #nicksubdesc{
+                color: rgb(170 170 170);
+                display: flex;
+                font-size: 14px;
+                margin-top: 10px;
+            }
+
+            .desc {
+                margin-top: 12px;
+                color: white;
+                font-size: 14px;
+            }
+
+            .desc span {
+                color: rgb(170 170 170);
+            }
+
+            #nick {
+                color: white;
+            }
+
+            .desc a:link, .desc a:visited {
+                text-decoration: none;
+                color: rgb(56, 166, 255);
+            }
+
+            .subscribe-button {
+                margin-top: 15px;
+                padding: 8px 15px 8px 15px;
+                border-radius: 20px;
+                font-size: 15px;
+                font-weight: 500;
+                outline: none;
+                border: none;
+            }
+
+            #unsubscribe {
+                background-color: rgb(39 39 39);
+                color: rgb(241 241 241);
+            }
+
+            #unsubscribe:hover {
+                background-color: rgb(63 63 63);
+            }
+
+            #content-menu {
+                margin-top: 30px;
+                display: flex;
+                align-items: center;
+            }
+
+            #content-menu ul {
+                display: flex;
+                list-style: none;
+            }
+
+            #content-menu ul li {
+                margin-right: 30px;
+                padding-bottom: 5px;
+            }
+
+            #content-menu ul li a {
+                color: rgb(170 170 170);
+            }
+
+            #content-menu ul li a:hover {
+                border-bottom: 2px rgb(170 170 170) solid;
+                padding-bottom: 10px;
+            }
+
+            #content-menu ul li a:active {
+                color: white;
+            }
+
+            #content-search {
+                max-width: 25px;
+                max-height: 25px;
+                min-width: 25px;
+
+                background-color: rgb(15 15 15);
+                border: none;
+            }
+
+            #pageheader hr {
+                margin-top: 5px;
+                margin-left: -20px;
+                width: 95%;
+            }
+
+            #pageheader {
+                border-bottom: 1px gray solid;
+                height: 323px;
+                width: 550px;
+            }
+
+            #detail-main {
+                width: 500px;
+                height: auto;
+            }
+
+            @media screen and (min-width: 680px) {
+                #pageheader {
+                    height: 363px;
+                    width: 650px
+                }
+
+                #detail-main {
+                    width: 630px;
+                }
+            }
+
+            @media screen and (min-width: 940px) {
+                #pageheader {
+                    height: 398px;
+                    width: 800px;
+                }
+
+                #detail-main {
+                    width: 860px;
+                }
+            }
+
+            @media screen and (min-width:1150px) {
+                #pageheader {
+                    height: 423px;
+                    width: 1000px;
+                }
+
+                #detail-main {
+                    width: 1030px;
+                }
+            }
+
+            @media screen and (min-width: 1210px) {
+                #detail-main {
+                    width: 1090px;
+                }
+            }
+
+            @media screen and (min-width: 1230px) {
+                #pageheader {
+                    height: 434px;
+                }
+            }
+
+            @media screen and (min-width: 1400px) {
+                #detail-main {
+                    width: 1100px;
+                }
+            }
+
+            @media screen and (min-width: 1550px) {
+                #pageheader {
+                    height: 468px;
+                    width: 1300px;
+                }
+
+                #detail-main {
+                    width: 1200px;
+                }
+            }
+

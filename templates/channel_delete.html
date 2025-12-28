@@ -1,0 +1,16 @@
+{% extends 'base-channel-edit.html' %}
+
+{% load static %}
+{% block title %}Delete confirmation{% endblock %}
+
+{% block content %}
+<h2>Delete confirmation</h2>
+    <form action="" method="POST">
+    {% csrf_token %}
+    <p>Are you sure you want to delete "{{ channel.name }}"? <br> This action cannot be reversed</p>
+        <div id="buttons">
+            <button type="submit">Confirm</button>
+            <button id="return-button"><a href="{% url 'update-list' %}">Return to Dashboard</a></button>
+        </div>
+    </form>
+{% endblock %}

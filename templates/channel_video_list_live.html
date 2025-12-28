@@ -1,0 +1,37 @@
+{% extends 'base_channel_details.html' %}
+
+{% load static %}
+
+{% block title %}{{ channel.name }}{% endblock %}
+
+{% block main %}
+    <div id="top-buttons">
+        <button id="activeB">Latest</button>
+        <button>Popular</button>
+        <button>Oldest</button>
+    </div>
+    <div id="video-list">
+    {% for video in channel.videos.all %}
+        {% if video.vtype == type %}
+            <a href="{% url 'video-detail' channel.handle video.id %}">
+                <div class="video-container">
+                <img src="{{ video.thumbnail.url }}" alt="Video Thumbnail">
+                <div class="video-details">
+                    <div class="second-row">
+                    <p class="video-title">{{ video.video_title }}</p>
+                        <div class="video-dot-menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="third-row">
+                    <p class="video-views">{{ video.views }}K views</p>
+                    <p>&nbsp;•&nbsp;</p>
+                    <p class="video-date"> Streamed on {{ video.upload_date.year }}/{{ video.upload_date.month }}/{{ video.upload_date.day }}</p>
+                    </div>
+                </div>
+            </div></a>
+        {% endif %}
+    {% endfor %}
+
+    </div>
+{% endblock %}

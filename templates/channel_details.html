@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div id="pageheader">
+        <div id="top-half">
+            <img id="banner" src="{% if channel.banner %}{{ channel.banner.url }}{% else %}{% endif %}">
+        </div>
+        <div id="bottom-half">
+            <img id="channel-icon" src="{% if channel.icon %}{{ channel.icon.url }}{% else %}{% endif %}" alt="channel-icon">
+            <div id="details">
+                <div id="namecheck">
+                    <h1>
+                        {{ channel.name }}
+                        <svg id="verified" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg>
+                    </h1>
+                </div>
+            <div id="nicksubdesc">
+                <p id="nick">@{{ channel.handle }}</p>
+                <p>&nbsp•&nbsp</p>
+                <p>{{ channel.subscribers }} subscribers</p>
+                <p>&nbsp•&nbsp</p>
+                <p>565 videos</p>
+            </div>
+            <p class="desc"><span>{{ channel.description }}</span></p>
+            <p class="desc"><a href="twitter.com/gawrgura">twitter.com/gawrgura</a> and 1 more link</p>
+            <form id="sub-form" action="{ url 'subscribe-channel' channel.handle }" method="POST">
+                <button id="subscribe-button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div id="content-menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Videos</a></li>
+            <li><a href="">Shorts</a></li>
+            <li><a href="">Live</a></li>
+            <li><a href="">Playlists</a></li>
+            <li><a href="">Posts</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <button id="content-search" style="background-color: rgb(15 15 15); border: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill=" rgb(170 170 170)" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"></path></svg>
+        </button>
+    </div>
+    </div>
+{% endblock %}

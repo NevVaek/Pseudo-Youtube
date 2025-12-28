@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "accounts",
     "pages",
+    "channel",
 ]
 
 MIDDLEWARE = [
@@ -130,3 +131,7 @@ LOGIN_REDIRECT_URL = "home" # new
 LOGOUT_REDIRECT_URL = "home" # new
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+MEDIA_URL = "/media/"
+
+MEDIA_ROOT = BASE_DIR / "media"
